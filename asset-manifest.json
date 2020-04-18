@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/saxa-react/static/css/main.b693b373.chunk.css",
+    "main.js": "/saxa-react/static/js/main.adae5889.chunk.js",
+    "main.js.map": "/saxa-react/static/js/main.adae5889.chunk.js.map",
+    "runtime-main.js": "/saxa-react/static/js/runtime-main.4616d35f.js",
+    "runtime-main.js.map": "/saxa-react/static/js/runtime-main.4616d35f.js.map",
+    "static/js/2.57c752a4.chunk.js": "/saxa-react/static/js/2.57c752a4.chunk.js",
+    "static/js/2.57c752a4.chunk.js.map": "/saxa-react/static/js/2.57c752a4.chunk.js.map",
+    "index.html": "/saxa-react/index.html",
+    "precache-manifest.1ca828d7e22616d45671dbcb94fb8f98.js": "/saxa-react/precache-manifest.1ca828d7e22616d45671dbcb94fb8f98.js",
+    "service-worker.js": "/saxa-react/service-worker.js",
+    "static/css/main.b693b373.chunk.css.map": "/saxa-react/static/css/main.b693b373.chunk.css.map",
+    "static/js/2.57c752a4.chunk.js.LICENSE.txt": "/saxa-react/static/js/2.57c752a4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4616d35f.js",
+    "static/js/2.57c752a4.chunk.js",
+    "static/css/main.b693b373.chunk.css",
+    "static/js/main.adae5889.chunk.js"
+  ]
+}
