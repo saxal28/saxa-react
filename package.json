@@ -51,6 +51,8 @@
     "dist"
   ],
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "typography": "^0.16.19",
+    "typography-theme-sutro": "^0.16.19"
   }
 }
