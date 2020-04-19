@@ -1,0 +1,89 @@
+@import '../colors';
+@import '../variables';
+
+@mixin saxa-button($color) {
+  background: $color;
+  &:hover {
+    &::after {
+      box-shadow: 0px 2px 17px rgba($color, 1);
+    }
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0px 4px 17px rgba($color, 1);
+    }
+    background-color: darken($color: $color, $amount: 5);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @include button-outline($color)
+}
+
+@mixin button-outline($color) {
+
+    &.outline {
+        background: white;
+        border-color: $color;
+        color: $color;
+    
+        &:hover {
+            background: $color;
+            color: white;
+        }
+      }
+}
+
+.saxa-button {
+  color: white;
+  font-family: $font-button;
+  padding: 6px 35px;
+  border-radius: 6px;
+  font-weight: bold;
+  border-color: transparent;
+  position: relative;
+  font-size: 16px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 5px;
+    height: calc(100% - 5px);
+    transition: all 200ms;
+    z-index: -1;
+  }
+
+  &.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+  }
+
+  &.rounded { 
+      border-radius: 20px;
+  }
+
+  @include saxa-button($default-color);
+
+  transition: all 300ms;
+
+  &.primary {
+    @include saxa-button($primary-color);
+  }
+
+  &.secondary {
+    @include saxa-button($secondary-color);
+  }
+
+  &.success {
+    @include saxa-button($success-color);
+  }
+
+  &.danger {
+    @include saxa-button($danger-color);
+  }
+}
