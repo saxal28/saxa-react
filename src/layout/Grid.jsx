@@ -10,7 +10,6 @@ export const GridItem = ({ children, xs, sm, md, lg, xl }) => {
     if(lg) classes.push(buildCol(lg, 'lg'))
     if(xl) classes.push(buildCol(xl, 'xl'))
 
-    console.log({classes})
     return classes.join(' ')
   })()
 

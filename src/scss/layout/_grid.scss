@@ -6,46 +6,37 @@
     &-xl {
         @media (min-width: $large-desktop-breakpoint) {
             width: $width;
-            background: rgba(0,0,0,0.4);
         }
     }
 
     &-lg {
         @media (max-width: $large-desktop-breakpoint) and (min-width: $desktop-breakpoint) {
             width: $width;
-            background: #999;
         }
     }
 
     &-md {
         @media (max-width: $desktop-breakpoint) and (min-width: $mobile-breakpoint) {
             width: $width;
-            background: #666;
         }
     }
 
     &-sm {
         @media (max-width: $mobile-breakpoint) and (min-width: $phone-breakpoint) {
             width: $width;
-            background: #333;
         }
     }
 
     &-xs {
         @media (max-width: $phone-breakpoint) {
             width: $width;
-            background: black;
         }
     }
-
-  
-
 }
 
 .row {  
     width:  100%;
     .col {
-        background: red;
         width: 100%;
         float:left;
     }

@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, GridItem } from 'saxa-react'
 
 const Box = ({ children }) => (
-  <div style={{ width: '100%', height: 300, display: 'flex', alignItems: "center", justifyContent: "center" }}>
+  <div style={{ width: '100%', height: 300, display: 'flex', alignItems: "center", justifyContent: "center", border: '1px solid lightgray' }}>
     {children}
   </div>
 )
